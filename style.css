@@ -36,15 +36,18 @@ a:hover {
 }
 
 section {
-  padding: 10vh 0 10vh 0;
+  
+  padding: 10vh 0 10vh 8vw;
 }
 
 section.sem {
   background-color: white;
+  color: black;
 }
 
 section.com {
-  background-color: #00000060;
+  color: white;
+  background-color: #0000008f;
 }
 
 footer {
