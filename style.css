@@ -35,6 +35,18 @@ a:hover {
   text-decoration: underline;
 }
 
+section {
+  padding: 10vh 0 10vh 0;
+}
+
+section.sem {
+  background-color: white;
+}
+
+section.com {
+  background-color: #00000060;
+}
+
 footer {
   color: white;
   background-color: black;
