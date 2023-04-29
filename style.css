@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   min-height: 100vh;
   background-color: #10007d0e;
 }
@@ -16,7 +17,7 @@ header {
   background-color: #02000f;
 }
 
-header>h1 {
+header > h1 {
   padding: 50px 0 10px 0;
   font-variant: small-caps;
 }
@@ -36,7 +37,6 @@ a:hover {
 }
 
 section {
-  
   padding: 10vh 0 10vh 8vw;
 }
 
@@ -48,6 +48,16 @@ section.sem {
 section.com {
   color: white;
   background-color: #0000008f;
+}
+
+section#com1 {
+  background-size: cover;
+  background-image: url('imagens/background001.jpg');
+}
+
+section#com2 {
+background-size: cover;
+  background-image: url('imagens/background002.jpg');  
 }
 
 section.com > p {
