@@ -5,13 +5,39 @@
   padding: 0;
 }
 
+html, body {
+  min-height: 100vh;
+  background-color: #10007d0e;
+}
+
 header {
   text-align: center;
-  min-height: 170px;
   color: white;
   background-color: #02000f;
 }
 
 header>h1 {
   padding: 50px 0 10px 0;
+  font-variant: small-caps;
+}
+
+header > p {
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
 }
