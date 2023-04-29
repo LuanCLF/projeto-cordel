@@ -50,6 +50,12 @@ section.com {
   background-color: #0000008f;
 }
 
+section.com > p {
+  padding: 10px;
+  width: 300px;
+  background-color: #0000008a;
+}
+
 footer {
   color: white;
   background-color: black;
