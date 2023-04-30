@@ -78,6 +78,7 @@ background-size: cover;
 }
 
 section.com > p {
+  display: inline-block;
   background-color: #0000008a;
 }
 
