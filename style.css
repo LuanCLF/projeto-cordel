@@ -68,6 +68,7 @@ section.sem {
 }
 
 section.com {
+  font-size: 3.5vw;
   box-shadow: inset 6px 6px 13px 0 #0000004d;
   background-attachment: fixed;
   color: white;
@@ -75,8 +76,8 @@ section.com {
   background-size: cover;
 }
 
-section#com1 {
-  background-position: right center;
+section#com1 { 
+  background-position: center center;
   background-image: url('imagens/background001.jpg');
 }
 
