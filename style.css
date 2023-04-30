@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 :root {
+  --fontegeral: Verdana, Geneva, Tahoma, sans-serif;
   --fontetitulo: 'Passion One', cursive;
   --fontemao: 'Courgette', cursive;
 }
@@ -16,7 +17,7 @@
 
 html,
 body {
- font-family: var(--fontemao);
+ font-family: var(--fontegeral);
   min-height: 100vh;
   background-color: #10007d0e;
 }
@@ -48,6 +49,7 @@ a:hover {
 }
 
 section {
+  font-family: var(--fontemao);
   padding: 10vh 0 10vh 8vw;
 }
 
