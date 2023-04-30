@@ -74,9 +74,9 @@ section.com {
 }
 
 section#com1 {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: right center;
   background-image: url('imagens/background001.jpg');
+  background-size: cover;
 }
 
 section#com2 {
@@ -85,6 +85,7 @@ background-size: cover;
 }
 
 section.com > p {
+  text-shadow: 1px 1px 0 black;
   padding: 6px;
   display: inline-block;
   background-color: #0000008a;
