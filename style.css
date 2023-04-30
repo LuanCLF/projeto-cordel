@@ -23,13 +23,13 @@ body {
 }
 
 header {
-  font-family: var(--fontetitulo);
   text-align: center;
   color: white;
   background-color: #02000f;
 }
 
 header > h1 {
+  font-family: var(--fontetitulo);
   padding: 50px 0 10px 0;
   font-variant: small-caps;
 }
@@ -51,6 +51,7 @@ a:hover {
 section {
   font-family: var(--fontemao);
   padding: 10vh 0 10vh 8vw;
+  line-height: 2em;
 }
 
 section.sem {
