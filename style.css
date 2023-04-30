@@ -64,12 +64,14 @@ section.sem {
 }
 
 section.com {
+  background-attachment: fixed;
   color: white;
   background-color: #0000008f;
 }
 
 section#com1 {
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url('imagens/background001.jpg');
 }
 
