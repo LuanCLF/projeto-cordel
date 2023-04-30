@@ -18,7 +18,7 @@
 html,
 body {
   font-size: 2.5vw;
- font-family: var(--fontegeral);
+  font-family: var(--fontegeral);
   min-height: 100vh;
   background-color: #10007d0e;
 }
@@ -68,6 +68,7 @@ section.sem {
 }
 
 section.com {
+  box-shadow: inset 6px 6px 13px 0 #0000004d;
   background-attachment: fixed;
   color: white;
   background-color: #00000061;
@@ -80,8 +81,8 @@ section#com1 {
 }
 
 section#com2 {
-background-size: cover;
-  background-image: url('imagens/background002.jpg');  
+  background-size: cover;
+  background-image: url('imagens/background002.jpg');
 }
 
 section.com > p {
