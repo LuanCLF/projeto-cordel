@@ -76,12 +76,12 @@ section.com {
 section#com1 {
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*background-image: url('imagens/background001.jpg');*/
+  background-image: url('imagens/background001.jpg');
 }
 
 section#com2 {
 background-size: cover;
-  /*background-image: url('imagens/background002.jpg'); */ 
+  background-image: url('imagens/background002.jpg');  
 }
 
 section.com > p {
