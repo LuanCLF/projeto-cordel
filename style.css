@@ -79,7 +79,7 @@ section.com {
 
 section.com > p {
   text-shadow: 0.1rem 0.1rem 0 black;
-  padding: 3vw;
+  padding: 2vw;
   display: inline-block;
   background-color: #0000008a;
 }
