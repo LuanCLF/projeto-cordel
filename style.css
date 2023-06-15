@@ -8,41 +8,47 @@
   --fontegeral: Verdana, Geneva, Tahoma, sans-serif;
   --fontetitulo: 'Passion One', cursive;
   --fontemao: 'Courgette', cursive;
+  
+  --corBranca: rgba(255, 255, 255, 0.146);
+  --corBrancaClara: rgba(255, 255, 255, 0.954);
 }
 
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  font-size: 2.5vw;
+  
   font-family: var(--fontegeral);
-  min-height: 100vh;
+  
   background-color: #10007d0e;
 }
 
 header {
-  min-height: 200px;
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.839);
   background-color: #02000f;
 }
 
-header > h1 {
-  font-size: 10vw;
+header h1 {
+  font-size: 9rem;
   font-family: var(--fontetitulo);
-  padding: 50px 0 10px 0;
+  padding: 5rem 0 1rem 0;
   font-variant: small-caps;
 }
 
-header > p {
-  padding-bottom: 50px;
+header p, a {
+  font-size: 3rem;
+  padding-bottom: 5rem;
 }
 
 a {
-  color: white;
+  color: var(--corBrancaClara);
   text-decoration: none;
   font-weight: bolder;
 }
@@ -52,27 +58,32 @@ a:hover {
 }
 
 section {
-  font-size: 3.5vw;
+  font-size: 3.5rem;
   font-family: var(--fontemao);
-  padding: 10vh 0 10vh 8vw;
-  line-height: 2em;
+  line-height: 6rem;
 }
 
-section > p {
-  padding-bottom: 2em;
-}
+
 
 section.sem {
-  background-color: white;
+  background-color: var(--corBranca);
   color: black;
+  padding: 10rem 0 10rem 15vw;
 }
 
 section.com {
-  box-shadow: inset 6px 6px 13px 0 #0000004d;
+  box-shadow: inset 0.6rem 0.6rem 1.3rem 0 #0000004d;
   background-attachment: fixed;
-  color: white;
-  background-color: #00000061;
+  color: var(--corBrancaClara);
   background-size: cover;
+  padding: 10rem 0 10rem 13vw;
+}
+
+section.com > p {
+  text-shadow: 0.1rem 0.1rem 0 black;
+  padding: 3rem;
+  display: inline-block;
+  background-color: #0000008a;
 }
 
 section#com1 { 
@@ -84,16 +95,14 @@ section#com2 {
   background-image: url('imagens/background002.jpg');
 }
 
-section.com > p {
-  text-shadow: 1px 1px 0 black;
-  padding: 6px;
-  display: inline-block;
-  background-color: #0000008a;
-}
-
 footer {
   color: white;
   background-color: black;
-  text-align: center;
-  padding: 10px;
+  text-align: center;  
+  padding: 2rem;
+  font-size: 2rem;
+}
+footer a {
+  padding-bottom: 0;
+  font-size: 2.2rem;
 }
