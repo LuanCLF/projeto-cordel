@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 
 :root {
   --fontegeral: Verdana, Geneva, Tahoma, sans-serif;
-  --fontetitulo: 'Passion One', cursive;
-  --fontemao: 'Courgette', cursive;
-  
+  --fontetitulo: "Passion One", cursive;
+  --fontemao: "Courgette", cursive;
+
   --corBranca: rgba(255, 255, 255, 0.146);
   --corBrancaClara: rgba(255, 255, 255, 0.954);
 }
@@ -23,9 +23,8 @@
 
 html,
 body {
-  
   font-family: var(--fontegeral);
-  
+
   background-color: #10007d0e;
 }
 
@@ -42,7 +41,8 @@ header h1 {
   font-variant: small-caps;
 }
 
-header p, a {
+header p,
+a {
   font-size: 3rem;
   padding-bottom: 5rem;
 }
@@ -62,8 +62,6 @@ section {
   font-family: var(--fontemao);
   line-height: 6rem;
 }
-
-
 
 section.sem {
   background-color: var(--corBranca);
@@ -86,19 +84,19 @@ section.com > p {
   background-color: #0000008a;
 }
 
-section#com1 { 
+section#com1 {
   background-position: center center;
-  background-image: url('imagens/background001.jpg');
+  background-image: url("imagens/background001.jpg");
 }
 
 section#com2 {
-  background-image: url('imagens/background002.jpg');
+  background-image: url("imagens/background002.jpg");
 }
 
 footer {
   color: white;
   background-color: black;
-  text-align: center;  
+  text-align: center;
   padding: 2rem;
   font-size: 2rem;
 }
